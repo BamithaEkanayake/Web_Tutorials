@@ -1,0 +1,92 @@
+<html>
+
+<head>    
+    <style>
+        .Fx
+        {        
+        margin:auto;
+        display:flex;       
+        justify-content:center;
+        }
+    </style>
+</head>    
+
+<body>
+    <div class="Fx">
+<form name="carReg" action="Welcome.html" method="post">
+<fieldset>
+    
+<legend>Car Registration</legend>
+    
+<table id="t1">
+    <tr>
+    <td><label for="name">Owner Name</label></td>
+    <td><input type="text" id="name" name="name" placeholder="Owner Name"></td>
+    </tr>
+    
+    <tr>
+    <td><label for="email">Email</label></td>
+    <td><input type="email" id="email" name="email" placeholder="Email"></td></tr>
+    
+    <tr>
+    <td><label for="pn">Phone<br>number</label></td>
+    <td><input type="number" id="pn" name="pn" placeholder="Phone number"></td>
+    </tr>
+    
+    <tr>
+    <td><label for="country">Country</label></td>
+    <td><select id="country" name="country">
+        <option value="sri">Sri Lanka</option>
+        <option value="swiss">Switzerland</option>
+        <option value="ausi">Australia</option>
+        <option value="nz">Newzeland</option>
+        <option value="eng">England</option>
+        </select></td>
+    </tr>
+    
+    <tr>
+    <td><label for="model">Car Model</label></td>
+    <td><input type="text" id="model" name="model"></td>
+    </tr>
+    
+    <tr>
+        <td><label for="mfd">Manufacture<br>Year</label></td>
+        <td><select id="mfd" name="mfd">
+            <option value="default">Select Year</option>
+            <option value="15">2015</option>
+            <option value="16">2016</option>
+            <option value="17">2017</option>
+            <option value="18">2018</option>
+            </select></td>
+    </tr>
+    
+    <tr>
+    <td><label for="trans">Transmission</label></td>
+    <td><input type="radio" id="manual" name="trans">Manual
+        <input type="radio" id="auto" name="trans">Auto
+        </td>
+    </tr>
+    
+    <tr>
+    <td><label for="other">Other</label></td>
+    <td><textarea id="other" name="other" rows="3"></textarea></td>
+    </tr>
+    
+</table> 
+    
+    <input type="checkbox" id="terms" name="terms">I agree to the conditions and terms<br>
+    
+<table id="t2">
+    <tr>
+    <td><input type="button" id="submit" name="submit" value="Submit"></td>
+        <td>   &nbsp; &nbsp; &nbsp; &nbsp; </td>        
+    <td><input type="button" id="reset" name="reset" value="Reset"></td>
+    </tr>
+</table>
+    
+</fieldset>
+    
+</form>
+    </div>
+</body>
+</html>

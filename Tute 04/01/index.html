@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+        .Fx{        
+          margin:auto;
+          display: flex;
+          justify-content:center;          
+        }
+     </style>
+    </head>
+<body>
+        
+<div class="Fx">
+
+
+<form name="regForm" action="Welcome.html" method="post">
+
+<fieldset style="border-color:cornflowerblue">
+    <h1>Registration Form</h1>
+<table align="center">
+
+<tr>
+<td><label for="fname">First Name</label></td>
+<td><input id="fnmae" name="name" type="text"></td>
+</tr>
+
+<tr>
+<td><label for="lname">Last Name </label></td>
+<td><input id="lname" name="name" type="text"></td>
+</tr>
+
+<tr>
+<td><label for="mobile">Moblie Number </label></td>
+<td><input id="mobile" name="course" type="text"></td>
+</tr>
+
+<tr>
+<td><label for="gender">Gender </label></td>
+<td><input type="radio" id="female" name="gender" required>Female
+<input type="radio" id="male" name="gender" required>Male</td>
+</tr>
+
+<tr>
+<td><label for="email">Email</label></td>
+<td><input id="email" name="email" type="text"></td>
+</tr>
+
+<tr>
+<td><label for="music">Favourite Music</label></td>
+<td> 
+    <input type="checkbox" id="pop" name="music" required>
+    <label for="pop">POP</label>
+    <input type="checkbox" id="rock" name="music" required>
+    <label for="rock">Rock</label>
+    <input type="checkbox" id="other" name="music" required>
+    <label for="other">Other</label>
+</tr>
+
+<tr>
+<td><label for="addtional">Additional Detail</label></td>
+<td> <textarea id="additional" name="additional" rows="3"></textarea></td>
+</tr>
+    
+</table>
+
+ <input type="checkbox" name="agree" id="agree" required>
+ <label for="agree">I agree to the terms and condition</label>
+
+
+<table>
+    <tr>
+    <td><input name="Submit" type="Submit" value="Submit"></td>
+        <td> &nbsp; &nbsp; &nbsp; &nbsp;</td>
+    <td><input name="Reset" type="Reset" value="Reset"></td>
+    </tr>
+</table>
+    </fieldset>
+            
+</form>
+    
+</div>
+</body>
+</html>
